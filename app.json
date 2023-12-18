@@ -4,10 +4,27 @@
     "web": {
       "bundler": "metro"
     },
+    "version": "1.0.0",
     "plugins": [
       "expo-router"
     ],
-    "name": "NativeTailwind",
-    "slug": "NativeTailwind"
+    "name": "Jobs",
+    "slug": "Jobs",
+    "icon": "./assets/favicon.png",
+    "splash": {
+      "image": "./assets/favicon.png",
+      "backgroundColor": "#FEF9B0"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fa70a2f7-b422-4416-afe3-6392a5c67ebd"
+      }
+    },
+    "android": {
+      "package": "com.thimmy.Jobs"
+    }
   }
 }
